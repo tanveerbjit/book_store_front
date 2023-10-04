@@ -1,5 +1,5 @@
-import TopBar from './topbar'
-import Navbar from './navbar'
+import TopBar from './topbar/TopBar'
+import Navbar from './molecule/NavButtonCollection'
 import Footer from './footer'
 import LoginForm from './login'
 
@@ -13,7 +13,7 @@ function LoginPage() {
       <TopBar/>
       <Navbar/>
       <LoginForm/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

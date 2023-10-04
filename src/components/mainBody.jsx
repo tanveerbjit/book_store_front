@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './sidebar';
+import Sidebar from './home/filter_bar/Sidebar';
 import Product from './product';
 
 function MainBody({children}) {
